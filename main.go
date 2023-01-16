@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/ZeinabAshjaei/hello-world/helper"
+)
 
 func main() {
-	fmt.Print("Hello World!")
+	fmt.Println("Hello", helper.GetName())
 }
