@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/ZeinabAshjaei/hello-world/helper"
+	"github.com/ZeinabAshjaei/helper/nameProducer"
 )
 
 func main() {
-	fmt.Println("Hello", helper.GetName())
+	fmt.Println("Hello", nameProducer.GetGreeting("Farshad"))
+	nameProducer.GetHelloWorld()
 }
